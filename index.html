@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Wamma Sabores</title>
+</head>
+
+<body>
+    <div>
+  <header>
+    <nav>
+      <ul>
+        <li><a href="#inicio">Inicio</a></li>
+        <li><a href="#comidas">Comidas</a></li>
+        <li><a href="#contacto">Contacto</a></li>
+      </ul>
+    </nav>
+  </header>
+</div>
+
+  <main>
+    <section id="inicio">
+      <h1>Bienvenido a nuestro restaurante</h1>
+      <p>Descripción del restaurante...</p>
+    </section>
+
+    <section id="comidas">
+      <h2>Nuestras comidas</h2>
+      <h3>Hamburguesas</h3>
+      <img src="images/gourmet.jpg" alt="Gourmet" width=300> 
+      <img src="images/chickencrispy.jpg" alt="Chicken Crispy" width="300">
+      <img src="images/parriburger.jpg" alt="Parriburger" width="300">
+
+    <br>
+        <h3>Ensaladas</h3> 
+      <img src="images/cesapollo.jpg" alt="Cesar con Pollo" width="300">
+      <img src="images/cesarcrispy.jpg" alt="Ensalada Crispy" width="300">
+      <img src="images/wammapollo.jpg" alt="Wamma con Pollo" width="300">
+    </section>
+
+    <div id="footer" style="background-color: rgb(36, 26, 12);">
+    <footer>
+    <section id="contacto">
+      <h2 style="color: white">Contacto</h2>
+      <form method="POST" action="ruta-del-servidor-donde-se-procesa-el-formulario">
+        <label for="nombre">Nombre:</label>
+        <input type="text" id="nombre" name="nombre" required>
+        <br>
+        
+        <label for="apellido">Apellido:</label>
+        <input type="text" id="apellido" name="apellido" required>
+        <br>
+        
+        <label for="correo">e-mail  :</label>
+        <input type="email" id="correo" name="correo" required>
+        <br>
+        
+        <input type="submit" value="Enviar">
+      </form>
+    </section>
+  </main>
+</div>
+</footer>
+</body>
+</html>
